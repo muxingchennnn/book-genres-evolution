@@ -1,0 +1,641 @@
+genres,trend_slope,trend_category
+13th Century,-0.008006142,Fading
+14th Century,6.938893903907228e-18,Increasing
+16th Century,0.036502227709485156,Increasing
+17th Century,0.031513635,Increasing
+19th Century,-0.138099548,Fading
+20th Century,-0.257013575,Fading
+Academic,-0.002280083,Fading
+Action,0.5668778280542957,Increasing
+Adult,3.5466968325791672,Increasing
+Adult Fiction,1.1999999999999948,Increasing
+Adventure,1.743619909502255,Increasing
+African American,0.074765227,Increasing
+Aliens,0.057523646,Increasing
+American,-0.155294118,Fading
+American Fiction,-0.005333175,Fading
+American History,0.072787929,Increasing
+Ancient,0.00885612,Increasing
+Ancient History,-0.00720327,Fading
+Animals,0.2279638009049761,Increasing
+Anthologies,0.15381895648905036,Increasing
+Anti Racist,-0.011191809,Fading
+Architecture,0.007801477,Increasing
+Art,0.13493212669683244,Increasing
+Arthurian,0.00371618,Increasing
+Asia,0.1580995475113108,Increasing
+Asian Literature,0.049761677,Increasing
+Atheism,0.023991031390134344,Increasing
+Audiobook,2.7921266968325638,Increasing
+Autobiography,0.4276110444177662,Increasing
+BDSM,0.43865858359321486,Increasing
+Banned Books,-0.012770138,Fading
+Baseball,0.015954883594855918,Increasing
+Biography,0.7196380090497726,Increasing
+Biography Memoir,0.5109723889555812,Increasing
+Biology,0.04012927,Increasing
+Books About Books,0.095464066,Increasing
+British Literature,0.30244343891402753,Increasing
+Bulgaria,-1.04E-17,Fading
+Bulgarian Literature,-0.003723083,Fading
+Business,0.25701098339297723,Increasing
+Canada,0.14418314315226088,Increasing
+Canadian Literature,0.006081591,Increasing
+Cartoon,0.008262312,Increasing
+Cats,0.074060804,Increasing
+Chapter Books,0.13648848187166643,Increasing
+Chick Lit,1.610468555038809,Increasing
+Childrens,0.961900452,Increasing
+China,0.079050676,Increasing
+Chinese Literature,-0.00602458,Fading
+Christian,0.5420814479637988,Increasing
+Christian Fiction,0.4802801754294769,Increasing
+Christian Living,0.086463309,Increasing
+Christian Non Fiction,0.04485493,Increasing
+Christianity,0.09894124,Increasing
+Classic Literature,0.018693582,Increasing
+Classics,-1.190135747,Fading
+Collections,-0.010775886,Fading
+College,0.29932540924051737,Increasing
+Comedy,0.2551260504201679,Increasing
+Comic Book,0.22434066666834418,Increasing
+Comics,0.7039135654261686,Increasing
+Coming Of Age,0.28879530979732443,Increasing
+Contemporary,4.319909502262421,Increasing
+Contemporary Romance,1.9255482456140245,Increasing
+Counter Culture,0,Fading
+Crime,1.1431674208144758,Increasing
+Criticism,-0.000718303,Fading
+Cultural,0.16305217570633085,Increasing
+Czech Literature,0.007376799,Increasing
+Dark,0.37918833639497124,Increasing
+Dark Fantasy,0.058462923301363615,Increasing
+Design,0.033528479,Increasing
+Drama,0.7110407239818973,Increasing
+Dystopia,0.6108597285067838,Increasing
+Economics,0.11880626639257111,Increasing
+Education,0.10135166379964097,Increasing
+Egypt,0.008223297,Increasing
+Egyptian Literature,0.012639570616126927,Increasing
+Epic,0.075445005,Increasing
+Epic Fantasy,0.18367761150462228,Increasing
+Erotica,1.1737121747761896,Increasing
+Essays,0.061800720288115174,Increasing
+European Literature,0.0019127,Increasing
+Evolution,0.024206747267831674,Increasing
+Fairy Tales,0.19791007212406692,Increasing
+Faith,0.14209726443769066,Increasing
+Family,0.6546606334841596,Increasing
+Fantasy,5.092126696832555,Increasing
+Female Authors,0.009311992,Increasing
+Feminism,0.069291717,Increasing
+Fiction,7.886063348416258,Increasing
+Finnish Literature,0.010138194992257677,Increasing
+Folklore,-0.012585232,Fading
+Food,0.096798624,Increasing
+France,0.13710407239818884,Increasing
+French Literature,0.028173413803522944,Increasing
+Futurism,1.214306433183765e-17,Increasing
+Gender,0.007251962,Increasing
+Gender Studies,-0.007462687,Fading
+German Literature,0.11963800904977362,Increasing
+Germany,0.040013928899300416,Increasing
+Gothic,0.028235294117647233,Increasing
+Graphic Novels,0.7976470588235273,Increasing
+Greece,-0.002156017,Fading
+Hard Boiled,0.014407527197882955,Increasing
+Hard Science Fiction,0.027506291332592216,Increasing
+Health,0.11696820296107256,Increasing
+High Fantasy,0.3183723115631206,Increasing
+High School,0.40815997152824346,Increasing
+Hinduism,-0.01024651,Fading
+Historical,1.4208144796380044,Increasing
+Historical Fantasy,0.017031227,Increasing
+Historical Fiction,1.4003619909502214,Increasing
+Historical Romance,0.3822624434389132,Increasing
+History,0.38995475113122197,Increasing
+Holocaust,0.0385695,Increasing
+Horror,0.8011764705882327,Increasing
+Hugo Awards,-0.003869494,Fading
+Humor,0.9978280542986386,Increasing
+India,0.12462766225596814,Increasing
+Indonesian Literature,0.056378404,Increasing
+Inspirational,0.2914452405165871,Increasing
+Iran,0.017340097462399007,Increasing
+Ireland,0.061420271,Increasing
+Irish Literature,0.023309541,Increasing
+Islam,0.051051197,Increasing
+Italian Literature,0.068725846,Increasing
+Italy,0.10887840707348584,Increasing
+Japan,0.12433349734402999,Increasing
+Japanese Literature,0.087283658,Increasing
+Jewish,0.014150887468727006,Increasing
+Juvenile,0.33665158371040527,Increasing
+Kids,0.021317785613402054,Increasing
+LGBT,0.4994911195370174,Increasing
+Language,0.004324574,Increasing
+Latin American,-0.022617597,Fading
+Latin American Literature,-0.017668909,Fading
+Literary Criticism,-0.007517916,Fading
+Literary Fiction,0.29095022624434314,Increasing
+Literature,-0.305701357,Fading
+Love,0.3907569700018602,Increasing
+Love Story,0.040252674,Increasing
+M M Romance,0.36106775443444233,Increasing
+Magic,1.766696832579176,Increasing
+Magical Realism,0.12552220888355334,Increasing
+Media Tie In,0.10157261794634552,Increasing
+Medieval,0.14408612104821322,Increasing
+Memoir,0.5825339366515824,Increasing
+Mental Health,0.1873240438658001,Increasing
+Mental Illness,0.10191439609965033,Increasing
+Middle Grade,1.0155656108597233,Increasing
+Military Fiction,0.21375565610859606,Increasing
+Military History,0.071493925,Increasing
+Modern,0.043508653,Increasing
+Modern Classics,-0.008665835,Fading
+Mystery,2.6155656108597176,Increasing
+Mystery Thriller,0.9352036199094994,Increasing
+Mythology,0.2817194570135729,Increasing
+Native Americans,-0.026583282,Fading
+New Age,0.038407943,Increasing
+New York,0.062299853,Increasing
+Nobel Prize,-0.014133509,Fading
+Noir,0.079320113,Increasing
+Nonfiction,1.4432579185520338,Increasing
+Novella,0.32055403335419447,Increasing
+Novels,0.45185520361991216,Increasing
+Own,0.013709457617879553,Increasing
+Philosophy,0.076470588,Increasing
+Physics,0.03597699,Increasing
+Picture Books,-0.013773061,Fading
+Plays,-0.020333614,Fading
+Poetry,0.008054299,Increasing
+Poetry Plays,-6.94E-18,Fading
+Political Science,0.026279521869684807,Increasing
+Politics,0.2255203619909498,Increasing
+Popular Science,0.069682902,Increasing
+Portugal,0.008218089,Increasing
+Post Apocalyptic,0.4025532318790106,Increasing
+Psychiatry,0.009623095,Increasing
+Psychology,0.34180995475113085,Increasing
+Pulp,0.016186140617096466,Increasing
+Queer,0.15963177906744022,Increasing
+Race,0.008682529,Increasing
+Read For School,-0.014203133,Fading
+Realistic Fiction,0.8463348416289549,Increasing
+Reference,0.054570135746606796,Increasing
+Religion,0.28630305625434843,Increasing
+Research,0.00657882,Increasing
+Roman,0.26110358835477665,Increasing
+Romance,6.590588235,Increasing
+Romantic,0.080955335,Increasing
+Russia,0.035582233,Increasing
+Russian Literature,-0.009851182,Fading
+Scandinavian Literature,0.073605463,Increasing
+School,-0.016470588,Fading
+Science,0.2960180995475109,Increasing
+Science Fiction,1.1228054298642502,Increasing
+Science Fiction Fantasy,0.26199095022624613,Increasing
+Scotland,0.12419301933771779,Increasing
+Scripture,0.003869793,Increasing
+Self Help,0.3577375565610845,Increasing
+Serbian Literature,-0.013275718,Fading
+Sexuality,0.028242564,Increasing
+Short Stories,0.336199095,Increasing
+Short Story Collection,0.017191455149585335,Increasing
+Social,0.013093754,Increasing
+Social Justice,0.038717918599870796,Increasing
+Sociology,0.094437136,Increasing
+Southern,0.046780253258192885,Increasing
+Space,0.098582142,Increasing
+Space Opera,0.022975549,Increasing
+Spain,0.035025638,Increasing
+Spanish Literature,0.06081448,Increasing
+Speculative Fiction,-0.078552036,Fading
+Spirituality,0.15613506549116463,Increasing
+Sports,0.26714466205063636,Increasing
+Steampunk,0.18593166647810186,Increasing
+Storytime,0.031981879013320405,Increasing
+Supernatural,1.6781542586100162,Increasing
+Survival,0.11681747469862772,Increasing
+Suspense,1.1997285067873258,Increasing
+Swedish Literature,0.071262455,Increasing
+Sword and Sorcery,-0.012615138,Fading
+Technology,0.064647569,Increasing
+Textbooks,0.016364552,Increasing
+The United States Of America,-0.008994776,Fading
+Theatre,-0.012914949,Fading
+Theology,0.048728499,Increasing
+Theory,-0.023644508,Fading
+Thriller,1.4097737556561043,Increasing
+Time Travel,0.2716911240917511,Increasing
+Travel,0.1757983193277308,Increasing
+True Crime,0.098125121,Increasing
+Turkish,0.027181447073150327,Increasing
+Ukraine,0.011720831113479269,Increasing
+Unfinished,0.18321086396341882,Increasing
+Victorian,0.027362384754183858,Increasing
+War,0.28606334841628844,Increasing
+Weird Fiction,0.019721783,Increasing
+Westerns,0.099879952,Increasing
+Womens,0.089987995,Increasing
+Womens Studies,0.004444166,Increasing
+World History,0.018199353759474384,Increasing
+World War II,0.12822235094121018,Increasing
+Writing,0.049804565,Increasing
+Young Adult,4.530950226244318,Increasing
+1st Grade,0.013973147687718467,Increasing
+Africa,0.082346939,Increasing
+African American Literature,0.0056656,Increasing
+Alternate History,0.057303328,Increasing
+Americana,-0.002712356,Fading
+Anthropology,-0.007531704,Fading
+Bande Dessinée,0.037859628770300795,Increasing
+Batman,0.004899791,Increasing
+Belgian,-1.73E-17,Fading
+Belgium,0.003613885,Increasing
+Book Club,0.45664802846562463,Increasing
+Brazil,-0.009771894,Fading
+Buddhism,0.030050927185787023,Increasing
+Catholic,0.020466612800831306,Increasing
+Church History,6.938893903907228e-18,Increasing
+Conspiracy Theories,0.008639938,Increasing
+Cults,0.008474576,Increasing
+Dc Comics,0.009966882,Increasing
+Detective,0.25182019238693065,Increasing
+Diary,0.028014089439100193,Increasing
+Discipleship,-0.017318184,Fading
+Dragons,0.19545322972100337,Increasing
+Emotion,6.938893903907228e-18,Increasing
+Engineering,-0.005733239,Fading
+Environment,0.034456975,Increasing
+Espionage,0.10480650136586131,Increasing
+European History,0.045311511,Increasing
+Film,0.043986667,Increasing
+Gay,0.2066716845170484,Increasing
+Geography,0.000616994,Increasing
+Ghosts,0.30621978217424584,Increasing
+Graphic Novels Comics,0.3144175540351787,Increasing
+Harlequin,0.015577523858432826,Increasing
+Harlequin Romance,0,Fading
+Journalism,0.038600176069762515,Increasing
+Law,0.016300374,Increasing
+Linguistics,0.004966887,Increasing
+Manga,0.3875065973007656,Increasing
+Maritime,0.012281010652346283,Increasing
+Marriage,0.09066724,Increasing
+Monsters,0.0067659,Increasing
+Murder Mystery,0.08896065,Increasing
+Music,0.3020901591951562,Increasing
+Natural History,0.013165128049589546,Increasing
+Nature,0.069285714,Increasing
+Naval Historical Fiction,-0.006417516,Fading
+Occult,0.002604871,Increasing
+Pakistan,0.022292059885287104,Increasing
+Paranormal,2.912220888355327,Increasing
+Parenting,0.06840386,Increasing
+Personal Development,0.23930858756283957,Increasing
+Poland,0.010802984742175937,Increasing
+Polish Literature,-0.005600815,Fading
+Portuguese Literature,0.003062782,Increasing
+Psychoanalysis,0.002606648,Increasing
+Psychological Thriller,0.11507730570759661,Increasing
+Relationships,0.1430767775202222,Increasing
+Retellings,0.21983020012129084,Increasing
+Romanticism,-0.000988555,Fading
+Seinen,0.011025866163833869,Increasing
+Sequential Art,0.045841913511799476,Increasing
+Social Science,0.043927090134912694,Increasing
+Society,0.025430385,Increasing
+South Africa,0.016280707568664878,Increasing
+Spy Thriller,-0.003524583,Fading
+Superheroes,0.1252668524080008,Increasing
+Teaching,0.018278887540006544,Increasing
+Teen,1.4064806773773588,Increasing
+United States,0.009390485,Increasing
+Urban,0.076675968,Increasing
+Urban Fantasy,1.6897583596155386,Increasing
+Utopia,-0.008004611,Fading
+Werewolves,0.5419414151661064,Increasing
+Witches,0.37304742055393003,Increasing
+Womens Fiction,0.18932082619283822,Increasing
+World War I,0.016276058,Increasing
+2nd Grade,0.064335177,Increasing
+Apocalyptic,0.22241534819046904,Increasing
+Art History,0.007154872,Increasing
+Artificial Intelligence,0.002006857,Increasing
+Australia,0.09417291,Increasing
+Biblical Fiction,0.003142184,Increasing
+Category Romance,0.030906096,Increasing
+Christmas,0.087724532,Increasing
+Clean Romance,0.067424947,Increasing
+Cookbooks,0.033139350572890344,Increasing
+Cooking,0.046543237,Increasing
+Counselling,0.014332650108512174,Increasing
+Cozy Mystery,0.12420211670716019,Increasing
+Diets,0.008445946,Increasing
+Divorce,-0.004427611,Fading
+Dutch Literature,0.016070609,Increasing
+Esoterica,6.938893903907228e-18,Increasing
+God,-0.009958791,Fading
+Gothic Romance,-0.018489985,Fading
+Grad School,0.005303007,Increasing
+Halloween,-0.012288952,Fading
+Holiday,0.049420405,Increasing
+Hungarian Literature,-0.007640449,Fading
+Hungary,-0.000563857,Fading
+Israel,0.036341505825074456,Increasing
+Judaism,0.005301817,Increasing
+Lebanon,-0.000305717,Fading
+Medical,0.084442409,Increasing
+Metaphysics,0.018378435,Increasing
+Mysticism,-0.012511585,Fading
+New Testament,0,Fading
+Nutrition,0.039780651705338746,Increasing
+Photography,0.038120329,Increasing
+Pirates,0.061190965,Increasing
+Regency,0.1804676670885364,Increasing
+Robots,-0.003895818,Fading
+Romania,-0.003303294,Fading
+Romantic Suspense,0.41719445144321804,Increasing
+Spanish Civil War,-2.43E-17,Fading
+Surreal,-3.47E-18,Fading
+Turkish Literature,0.021826461879448422,Increasing
+Vampires,1.0357601043024711,Increasing
+Zen,-0.006329114,Fading
+18th Century,-0.003222036,Fading
+American Revolution,-0.007754342,Fading
+Anarchism,-0.003203987,Fading
+Art and Photography,0.003099756,Increasing
+Astronomy,0.028317396727011616,Increasing
+Computer Science,0.002553336,Increasing
+Computers,0.022954461,Increasing
+Danish,0.008083702,Increasing
+Death,0.13482153079917616,Increasing
+Eastern Philosophy,0.011618481491488804,Increasing
+English Literature,0.012509325133281176,Increasing
+Entrepreneurship,0.04027167,Increasing
+Finance,0.077019287,Increasing
+Football,0.065897645,Increasing
+Futuristic,0.079349244,Increasing
+Gardening,0.011740071522680383,Increasing
+Gay Fiction,-0.002093008,Fading
+Government,0.011904761904761925,Increasing
+History Of Science,0.026639318155759137,Increasing
+How To,0.027880967435978433,Increasing
+Indian Literature,0.067129277,Increasing
+Lesbian,0.090053281,Increasing
+Lesbian Fiction,0.044962531223979196,Increasing
+Medicine,0.052888534,Increasing
+Morocco,0.019311377245508892,Increasing
+Neuroscience,0.028791263340779562,Increasing
+Outdoors,-0.000520833,Fading
+Plants,0.002016637,Increasing
+Police,0.035277421,Increasing
+Programming,0.002238505,Increasing
+Romanian Literature,-0.008451937,Fading
+Software,0,Fading
+Southern Gothic,0.019072907,Increasing
+Sustainability,0.019926646836283982,Increasing
+Sweden,0.029370928121328996,Increasing
+Technical,-0.00175561,Fading
+Wilderness,-3.47E-18,Fading
+African Literature,0.01616031,Increasing
+American Civil War,-0.002870813,Fading
+American Revolutionary War,-0.01305483,Fading
+Boarding School,0.046494465,Increasing
+Brain,0.022203971,Increasing
+Childrens Classics,0.026183190299795676,Increasing
+Church,0.013480750986753675,Increasing
+Cities,-0.007586345,Fading
+Civil War,0.02022951,Increasing
+Comix,0.028351627282749366,Increasing
+Ecology,0.006922811,Increasing
+Erotic Romance,0.6809064159609372,Increasing
+Fitness,0.022411269667032697,Increasing
+French Revolution,0.009409851,Increasing
+Historical Mystery,0.10402188123580768,Increasing
+Lds,0.023318757273336328,Increasing
+Lds Non Fiction,0.005602241,Increasing
+Leadership,0.1027365846200893,Increasing
+Management,0.023660427173949193,Increasing
+Medieval Romance,0.022896849,Increasing
+Mormonism,0.005065123,Increasing
+Nigeria,0.009092631,Increasing
+Plantagenet,0.005490777,Increasing
+Presidents,0.012896721938331312,Increasing
+Productivity,0.056068952,Increasing
+Russian History,0.001473903,Increasing
+Science Nature,0.002901649,Increasing
+Social Issues,0.008238834,Increasing
+The World,0.00206754,Increasing
+Travelogue,0.011212605617721041,Increasing
+True Story,0.052115994,Increasing
+Us Presidents,-5.20E-18,Fading
+Young Adult Fantasy,0.46794659011050094,Increasing
+Academia,-0.012657398,Fading
+Activism,0.011263375258119358,Increasing
+Agriculture,3.469446951953614e-18,Increasing
+Aviation,0.011641723126706482,Increasing
+Comic Strips,0.022351577,Increasing
+Cthulhu Mythos,6.938893903907228e-18,Increasing
+Cyberpunk,-0.012118483,Fading
+Dogs,0.064902331,Increasing
+Dungeons and Dragons,-0.056406325,Fading
+Folk Tales,6.938893903907228e-18,Increasing
+Fostering,0.016581592213309994,Increasing
+Georgian,0.000714662,Increasing
+Judaica,0.003037667,Increasing
+Lovecraftian,-0.00249616,Fading
+Martial Arts,-0.006201276,Fading
+Mathematics,0.029965164913261823,Increasing
+Medieval History,0.021168179,Increasing
+Pop Culture,0.10327264846120235,Increasing
+Prayer,-0.025963641,Fading
+Queer Lit,3.469446951953614e-18,Increasing
+Sci Fi Fantasy,0.014581373,Increasing
+Taoism,-0.000436681,Fading
+Terrorism,0.018816999923971733,Increasing
+Tudor Period,0.035930946674654955,Increasing
+Tv,0.041787012019006364,Increasing
+Young Readers,0.014221073044602956,Increasing
+Abuse,0.6329083374840128,Increasing
+Demons,0.6049080453225721,Increasing
+Disease,0.00669413,Increasing
+Fairy Tale Retellings,0.041498031,Increasing
+Genetics,-0.002748894,Fading
+Greek Mythology,0.08584029,Increasing
+Horse Racing,0.010603589,Increasing
+Horses,-0.009253865,Fading
+Humanities,-1.04E-17,Fading
+Star Wars,0.010241921243157766,Increasing
+Animal Fiction,0.046459946,Increasing
+Cultural Studies,0.007124859,Increasing
+Heroic Fantasy,0.009050313,Increasing
+Kenya,8.673617379884035e-18,Increasing
+Logic,-6.94E-18,Fading
+Magick,-0.003798827,Fading
+Old Testament,-2.60E-18,Fading
+Vegan,-0.003293363,Fading
+Beauty and The Beast,-0.005403079,Fading
+Chess,1.3877787807814457e-17,Increasing
+Crafts,0.012289073504469974,Increasing
+Cycling,0.010775862068965598,Increasing
+Ethiopia,-1.39E-17,Fading
+Fae,0.216536096,Increasing
+Fairies,0.17549812649759972,Increasing
+Games,0.029515988412970623,Increasing
+M F Romance,0.13719114468739982,Increasing
+Military Science Fiction,0.00850692,Increasing
+Motorcycle,0.16846652267818837,Increasing
+Paganism,-0.00338696,Fading
+Punk,0.001407416,Increasing
+Art Design,0.005700754,Increasing
+Biblical,0.009561977,Increasing
+Christian Romance,0.1572061429415246,Increasing
+Ghost Stories,0.024223680492322864,Increasing
+Poverty,0.016908212560386243,Increasing
+Quantum Mechanics,0.009032005,Increasing
+Wicca,0.02232519,Increasing
+Witchcraft,-0.012155213,Fading
+15th Century,0.017881978939002716,Increasing
+Anthropomorphic,0,Fading
+Buisness,0.10678679228025137,Increasing
+Christian Fantasy,0.029990819,Increasing
+Comics Manga,0.15147542685815538,Increasing
+Communication,-0.012436927,Fading
+Lds Fiction,0.026410898,Increasing
+Music Biography,-0.003521127,Fading
+Prehistoric,-0.010755529,Fading
+Rock N Roll,0.029312806,Increasing
+Splatterpunk,0.014850442353602165,Increasing
+Unicorns,0.032716927453770396,Increasing
+Western Romance,0.022463099173142674,Increasing
+Zimbabwe,8.673617379884035e-18,Increasing
+Archaeology,0.071889584,Increasing
+Basketball,0.000321664,Increasing
+Comic Fantasy,0.017455621,Increasing
+Denmark,0.021656600517688418,Increasing
+Legal Thriller,0.018576195773081443,Increasing
+Marvel,0.047764122,Increasing
+Palaeontology,-1.39E-17,Fading
+X Men,0.014844671647660275,Increasing
+Angels,0.59789957,Increasing
+Astrology,0.004153005,Increasing
+Birds,0.007350484,Increasing
+Food Writing,-1.04E-17,Fading
+Food and Drink,0.007874016,Increasing
+Foodie,-0.021548822,Fading
+Money,0.069594825,Increasing
+Hockey,0.009722049,Increasing
+Illness,0.026176158471876883,Increasing
+Lesbian Romance,0.047818708,Increasing
+Light Novel,0.003811944,Increasing
+Microhistory,0.007545671,Increasing
+New Adult,2.412413793103349,Increasing
+Skepticism,0.024521531100478534,Increasing
+Western Historical Romance,-0.021373679,Fading
+Young Adult Contemporary,0.23586082142220838,Increasing
+Amazon,0.7276529821843398,Increasing
+Botswana,0.005015432,Increasing
+Coding,-2.78E-17,Fading
+Cult Classics,-1.73E-18,Fading
+Dinosaurs,-0.013178565,Fading
+Dragonlance,-0.054844607,Fading
+Hackers,0.031545209,Increasing
+Journal,0,Fading
+Naval History,0.016581632653061232,Increasing
+Wildlife,-1.56E-17,Fading
+Algeria,-6.94E-18,Fading
+Banks,1.3877787807814457e-17,Increasing
+New Weird,-5.31E-16,Fading
+Personal Finance,0.008581203,Increasing
+Regency Romance,0.088052415,Increasing
+Shapeshifters,0.7381783560774229,Increasing
+Star Trek,-6.94E-18,Fading
+Superman,-0.000345304,Fading
+Zombies,0.4755584756898976,Increasing
+Edwardian,0.019971469329529964,Increasing
+Fashion,0.004011589,Increasing
+International,0.072003449,Increasing
+Quilting,6.938893903907228e-18,Increasing
+Road Trip,0.043432757718470966,Increasing
+Christian Historical Fiction,0.034179865,Increasing
+Disability,0.15856177243710415,Increasing
+Human Development,0.021076233,Increasing
+International Relations,0.013775921,Increasing
+Paranormal Romance,2.0518768735180206,Increasing
+Prehistory,-0.040436765,Fading
+Social Work,-0.017583849,Fading
+Spider Man,0.011867582760774778,Increasing
+Trivia,0.020985239196158044,Increasing
+Young Adult Historical Fiction,0.006285614,Increasing
+Climbing,-0.012612613,Fading
+Forgotten Realms,-0.054425711,Fading
+Mermaids,0.057165065,Increasing
+Mountaineering,0.005405405,Increasing
+Rabbits,-1.39E-17,Fading
+Role Playing Games,0.030817329164804484,Increasing
+Slice Of Life,-0.037702429,Fading
+Gaming,0.024626865671642392,Increasing
+Geology,-6.94E-18,Fading
+Internet,-6.94E-18,Fading
+Shonen,0.13218117937517831,Increasing
+Sports Romance,0.2251794998762179,Increasing
+Time Travel Romance,0.034161491,Increasing
+Alternative Medicine,-0.011160714,Fading
+Culinary,-0.001454545,Fading
+Musicians,0.17873831775701746,Increasing
+Near Future,0,Fading
+Princesses,0.000641026,Increasing
+Science Fiction Romance,-0.00622104,Fading
+Soccer,0.008231223,Increasing
+Elves,-0.015,Fading
+Fantasy Romance,0.031028368794327098,Increasing
+Anime,-0.036997162,Fading
+Doctor Who,0.018821966341896382,Increasing
+Nordic Noir,0.03417739,Increasing
+Shojo,0.11134789557805186,Increasing
+Teachers,0.001411765,Increasing
+Tragedy,0.04521852,Increasing
+12th Century,0.045676998368676267,Increasing
+Adoption,0.039023414048428934,Increasing
+Comedian,0.02406639,Increasing
+Transgender,-0.001714874,Fading
+Wolves,0.09536935,Increasing
+Young Adult Romance,0.12551020408163155,Increasing
+Komik,-0.090452261,Fading
+Yaoi,0.006925741,Increasing
+Boys Love,-0.029184038,Fading
+Graphic Novels Manga,0.085996956,Increasing
+Shounen Ai,0.025534132,Increasing
+Video Games,0.014506557,Increasing
+Amish,0.1911447084233278,Increasing
+Amish Fiction,0.13788056206088492,Increasing
+Cinderella,0.015123739688358333,Increasing
+Genderqueer,-0.020618557,Fading
+Military Romance,0.12156398104265215,Increasing
+Rwanda,0.007490637,Increasing
+Young Adult Science Fiction,0.047391624,Increasing
+M M F,0.002325581,Increasing
+Menage,0.239520958,Increasing
+40k,0.011889862,Increasing
+Guides,0.051312649,Increasing
+21st Century,-0.426315789,Fading
+Josei,0.088078292,Increasing
+Paranormal Mystery,0.11500000000000002,Increasing
+M F M,-0.019500305,Fading
+Reverse Harem,0.073151125,Increasing
+Webcomic,-0.019230769,Fading
+Manga Romance,-0.010080645,Fading
+Manhwa,-1.39E-17,Fading
+Gay For You,0.2081589958158965,Increasing
+Interracial Romance,0.013966480446929302,Increasing
+Gods,0.366504854,Increasing
+Young Adult Paranormal,0.22727272727272768,Increasing
+Bisexual,-2.78E-17,Fading
+Climate Change,0.012526096,Increasing
+M M Fantasy,0.11864406779666237,Increasing
+Fan Fiction,0.19262295081967087,Increasing
+M M Contemporary,0.044520547945208655,Increasing
