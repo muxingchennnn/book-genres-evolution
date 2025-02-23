@@ -3,11 +3,13 @@
 	import { currentPage } from '$lib/globalState.svelte.js';
 	import PageOne from '$lib/components/PageOne.svelte';
 	import PageTwo from '$lib/components/PageTwo.svelte';
+	import PageThree from '$lib/components/PageThree.svelte';
+	import PageFour from '$lib/components/PageFour.svelte';
 
 	let { data } = $props();
 	const { originalData, evolutionData } = data;
 
-	const pages = [PageOne, PageTwo];
+	const pages = [PageOne, PageTwo, PageThree, PageFour];
 	// $inspect(currentPage.value);
 	const RenderedPage = $derived(pages[currentPage.value - 1]);
 </script>
