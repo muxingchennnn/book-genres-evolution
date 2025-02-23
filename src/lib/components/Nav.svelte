@@ -3,20 +3,16 @@
 </script>
 
 <nav>
-	<div class="my-[2rem] flex justify-between">
+	<div class="my-8 flex flex-wrap justify-center gap-2">
 		{#each Array(12) as _, i}
-			{#if currentPage.value === i + 1}
-				<button class="selected-button bg-blue-500" onclick={() => (currentPage.value = i + 1)}>
-					Page {i + 1}
-				</button>
-			{:else}
-				<button
-					class="rounded bg-gray-500 p-2 text-white"
-					onclick={() => (currentPage.value = i + 1)}
-				>
-					Page {i + 1}
-				</button>
-			{/if}
+			<button
+				class="rounded-lg px-4 py-2 transition-colors {currentPage.value === i + 1
+					? 'bg-blue-600 hover:bg-blue-700'
+					: 'bg-gray-600 hover:bg-gray-700'} text-white"
+				on:click={() => (currentPage.value = i + 1)}
+			>
+				Page {i + 1}
+			</button>
 		{/each}
 	</div>
 </nav>
