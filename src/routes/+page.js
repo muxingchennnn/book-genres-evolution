@@ -1,12 +1,17 @@
-// import { json } from 'd3';
+import { csvParse } from 'd3-dsv';
 
-// console.log(json);
+/** @type {import('./$types').PageLoad} */
+export async function load() {
+	const [originalDataResponse, evolutionDataResponse] = await Promise.all([
+		import('$lib/data/Cleaned_Books_Dataset.csv?raw'),
+		import('$lib/data/Genre_Popularity_Over_Year.csv?raw')
+	]);
 
-// /** @type {import('./$types').PageLoad} */
-// export async function load() {
-// 	const data = await json('../lib/data/happiness-score.js');
+	const originalData = csvParse(originalDataResponse.default);
+	const evolutionData = csvParse(evolutionDataResponse.default);
 
-// 	return { data };
-// }
-
-// export const ssr = false;
+	return {
+		originalData,
+		evolutionData
+	};
+}
