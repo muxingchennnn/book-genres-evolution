@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const config = {
+module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
@@ -11,5 +11,3 @@ const config = {
 		}
 	}
 };
-
-export default config;

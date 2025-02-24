@@ -26,8 +26,15 @@
 	</div>
 </header> -->
 
-<RenderedPage />
-<SwarmChart />
+<!-- <RenderedPage /> -->
 
-<style>
+<!-- <SwarmChart /> -->
+
+<style lang="postcss">
+	@reference "tailwindcss/theme";
+
+	:global(body) {
+		position: relative;
+		background-color: lightyellow;
+	}
 </style>

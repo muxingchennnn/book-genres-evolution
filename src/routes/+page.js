@@ -15,3 +15,5 @@ export async function load() {
 		evolutionData
 	};
 }
+
+// export const ssr = false;

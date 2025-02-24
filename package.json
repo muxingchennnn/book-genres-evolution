@@ -32,6 +32,7 @@
 	"dependencies": {
 		"@fontsource-variable/geist": "^5.0.1",
 		"@fontsource-variable/source-serif-4": "^5.1.1",
-		"d3": "^7.9.0"
+		"d3": "^7.9.0",
+		"svelte-icons-pack": "^3.1.3"
 	}
 }
