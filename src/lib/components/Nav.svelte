@@ -1,10 +1,21 @@
 <script>
 	import { currentPage } from '$lib/globalState.svelte.js';
+
+	//
+	function handleKeyNavigation(event) {
+		if (event.key === 'ArrowLeft') {
+			currentPage.value = Math.max(1, currentPage.value - 1);
+		} else if (['ArrowRight', ' ', 'Enter'].includes(event.key)) {
+			event.preventDefault(); // Prevents spacebar from scrolling down
+			currentPage.value = Math.min(12, currentPage.value + 1);
+		}
+	}
 </script>
 
+<svelte:window onkeydown={handleKeyNavigation} />
 <nav>
 	<div class="my-8 flex flex-wrap justify-center gap-2">
-		{#each Array(12) as _, i}
+		{#each Array(12) as _, i (i)}
 			<button
 				class="rounded-lg px-4 py-2 transition-colors {currentPage.value === i + 1
 					? 'bg-blue-600 hover:bg-blue-700'
@@ -26,10 +37,4 @@
 </div> -->
 
 <style>
-	.selected-button {
-		/* background-color: #2563eb; */
-		color: white;
-		padding: 0.5rem 1rem;
-		border-radius: 0.5rem;
-	}
 </style>
