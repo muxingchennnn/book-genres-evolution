@@ -1,34 +1,24 @@
 <script>
-	import SwarmChart from '$lib/components/SwarmChart.svelte';
+	import SwarmChartCopy from '$lib/components/SwarmChartCopy.svelte';
 	import { currentPage } from '$lib/globalState.svelte.js';
 	import PageOne from '$lib/components/PageOne.svelte';
 	import PageTwo from '$lib/components/PageTwo.svelte';
 	import PageThree from '$lib/components/PageThree.svelte';
 	import PageFour from '$lib/components/PageFour.svelte';
 
+	// receive data from +page.js
 	let { data } = $props();
-	const { originalData, evolutionData } = data;
-
+	// deconstruct the data object received
+	const { originalData, evolutionData, rankingData } = data;
+	// dynamically render the page based on the 'currentPage' value
 	const pages = [PageOne, PageTwo, PageThree, PageFour];
-	// $inspect(currentPage.value);
 	const RenderedPage = $derived(pages[currentPage.value - 1]);
+
+	// $inspect(currentPage.value);
 </script>
 
-<!-- <header>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 offset-lg-3">
-				<h1>What makes a genre?</h1>
-
-				<p></p>
-			</div>
-		</div>
-	</div>
-</header> -->
-
 <!-- <RenderedPage /> -->
-
-<!-- <SwarmChart /> -->
+<SwarmChartCopy />
 
 <style lang="postcss">
 	@reference "tailwindcss/theme";

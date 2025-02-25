@@ -36,13 +36,13 @@
 <!-- Button Navigation -->
 <div class="absolute top-[50vh] flex w-full translate-y-[-50%] justify-between">
 	<button
-		class="nav-button translate-x-[-50%] justify-end rounded-e-[3rem] hover:translate-x-[-30%]"
+		class="nav-button translate-x-[-50%] justify-end rounded-e-[3rem] hover:translate-x-[-45%]"
 		onclick={() => (currentPage.value = Math.max(1, currentPage.value - 1))}
 	>
 		<Icon src={RiArrowsArrowDropLeftLine} viewBox="0 0 1024 1024" color="white" size="48" />
 	</button>
 	<button
-		class="nav-button translate-x-[50%] justify-start rounded-s-[3rem] hover:translate-x-[30%]"
+		class="nav-button translate-x-[50%] justify-start rounded-s-[3rem] hover:translate-x-[45%]"
 		onclick={() => (currentPage.value = Math.min(12, currentPage.value + 1))}
 	>
 		<Icon src={RiArrowsArrowDropRightLine} viewBox="0 0 1024 1024" color="white" size="48" />
