@@ -14,17 +14,21 @@
 	const pages = [PageOne, PageTwo, PageThree, PageFour];
 	const RenderedPage = $derived(pages[currentPage.value - 1]);
 
-	// $inspect(currentPage.value);
+	$inspect(currentPage.value);
 </script>
 
-<!-- <RenderedPage /> -->
-<SwarmChartCopy />
+<div class="mb-[4rem]"></div>
+<RenderedPage />
+
+{#if currentPage.value === 1}
+	<SwarmChartCopy data={originalData} />
+{/if}
 
 <style lang="postcss">
 	@reference "tailwindcss/theme";
 
 	:global(body) {
 		position: relative;
-		background-color: lightyellow;
+		background-color: black;
 	}
 </style>

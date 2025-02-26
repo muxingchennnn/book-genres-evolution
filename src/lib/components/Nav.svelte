@@ -18,7 +18,7 @@
 <svelte:window onkeydown={handleKeyNavigation} />
 
 <!-- Tab Navigation -->
-<nav class="absolute top-0 my-8 w-full px-4">
+<nav class="fixed top-0 my-4 w-full px-4">
 	<div class="flex h-[1rem] items-center gap-1">
 		{#each Array(12) as _, i (i)}
 			<button
@@ -27,27 +27,24 @@
 					: 'bg-gray-500 opacity-30'} "
 				onclick={() => (currentPage.value = i + 1)}
 			>
-				<!-- Page {i + 1} -->
 			</button>
 		{/each}
 	</div>
 </nav>
 
 <!-- Button Navigation -->
-<div class="absolute top-[50vh] flex w-full translate-y-[-50%] justify-between">
-	<button
-		class="nav-button translate-x-[-50%] justify-end rounded-e-[3rem] hover:translate-x-[-45%]"
-		onclick={() => (currentPage.value = Math.max(1, currentPage.value - 1))}
-	>
-		<Icon src={RiArrowsArrowDropLeftLine} viewBox="0 0 1024 1024" color="white" size="48" />
-	</button>
-	<button
-		class="nav-button translate-x-[50%] justify-start rounded-s-[3rem] hover:translate-x-[45%]"
-		onclick={() => (currentPage.value = Math.min(12, currentPage.value + 1))}
-	>
-		<Icon src={RiArrowsArrowDropRightLine} viewBox="0 0 1024 1024" color="white" size="48" />
-	</button>
-</div>
+<button
+	class="nav-button left-0 translate-x-[-50%] justify-end rounded-e-[3rem] hover:translate-x-[-45%]"
+	onclick={() => (currentPage.value = Math.max(1, currentPage.value - 1))}
+>
+	<Icon src={RiArrowsArrowDropLeftLine} viewBox="0 0 1024 1024" color="white" size="48" />
+</button>
+<button
+	class="nav-button right-0 translate-x-[50%] justify-start rounded-s-[3rem] hover:translate-x-[45%]"
+	onclick={() => (currentPage.value = Math.min(12, currentPage.value + 1))}
+>
+	<Icon src={RiArrowsArrowDropRightLine} viewBox="0 0 1024 1024" color="white" size="48" />
+</button>
 
 <!-- Nav bar stuff if needed
 <div class="topnav" role="navigation">
@@ -73,8 +70,8 @@
 
 	/* prettier-ignore */
 	.nav-button {
-		@apply h-[6rem] w-[6rem]
-           z-50
+		@apply fixed top-[50vh] translate-y-[-50%]
+					 h-[6rem] w-[6rem]
 					 flex items-center
 		       pointer-events-auto cursor-pointer
 					 bg-gray-500 opacity-50
