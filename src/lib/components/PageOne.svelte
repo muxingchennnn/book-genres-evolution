@@ -43,7 +43,7 @@ etc.<br />
 	<h1 class="text-center text-[1.125rem] font-bold sm:text-[2rem] lg:text-[2.5rem]">
 		Societal Shifts & Literary Evolution Go Hand in Hand
 	</h1>
-	<h2 class="mt-2 text-center font-[300]">by Muxing Chen and Bethany Ward</h2>
+	<h2 class="mt-2 text-center font-[200]">by Muxing Chen and Bethany Ward</h2>
 </div>
 
 <style>

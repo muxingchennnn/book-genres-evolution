@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-export default {
+const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		screens: {
@@ -18,3 +18,5 @@ export default {
 		}
 	}
 };
+
+export default config;

@@ -53,7 +53,23 @@
 	}
 
 	/* prettier-ignore */
-	/* :global(p) {
-		@apply text-[1rem] sm:text-[1.125rem]
+	:global(p) {
+		@apply text-[1rem] sm:text-[1.125rem];
+	}
+
+	/* prettier-ignore */
+	:global(.italic-serif) {
+		@apply font-serif italic text-[1.15rem] sm:text-[1.25rem];
+	}
+
+	/* prettier-ignore */
+	:global(.italic-serif) {
+		@apply font-serif italic text-[1.15rem] sm:text-[1.25rem];
+	}
+
+	/* .italic-serif {
+		font-family: 'Source Serif 4 Variable', serif;
+		font-style: italic;
+		font-size: 1.15rem;
 	} */
 </style>
