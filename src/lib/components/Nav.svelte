@@ -3,6 +3,8 @@
 	import { Icon } from 'svelte-icons-pack';
 	import { RiArrowsArrowDropLeftLine, RiArrowsArrowDropRightLine } from 'svelte-icons-pack/ri';
 
+	let windowWidth = $state(400);
+
 	// Handles navigation with keys
 	function handleKeyNavigation(event) {
 		if (event.key === 'ArrowLeft') {
@@ -15,16 +17,16 @@
 </script>
 
 <!-- Key Navigation -->
-<svelte:window onkeydown={handleKeyNavigation} />
+<svelte:window onkeydown={handleKeyNavigation} bind:innerWidth={windowWidth} />
 
 <!-- Tab Navigation -->
-<nav class="fixed top-0 my-4 w-full px-4">
-	<div class="flex h-[1rem] items-center gap-1">
+<nav class="fixed top-0 w-full px-4">
+	<div class="flex h-[3rem] items-center gap-1">
 		{#each Array(12) as _, i (i)}
 			<button
 				class="nav-tab {currentPage.value === i + 1
 					? 'bg-purple-500 hover:bg-purple-500'
-					: 'bg-gray-500 opacity-30'} "
+					: 'bg-gray-400 opacity-30'} "
 				onclick={() => (currentPage.value = i + 1)}
 			>
 			</button>
@@ -33,14 +35,22 @@
 </nav>
 
 <!-- Button Navigation -->
+<!-- Left Button -->
 <button
-	class="nav-button left-0 translate-x-[-50%] justify-end rounded-e-[3rem] hover:translate-x-[-45%]"
+	class="nav-button left-0 translate-x-[-50%] justify-end rounded-e-[3rem] hover:translate-x-[-45%] {windowWidth <=
+	640
+		? 'w-[4rem]'
+		: 'w-[6rem]'}"
 	onclick={() => (currentPage.value = Math.max(1, currentPage.value - 1))}
 >
 	<Icon src={RiArrowsArrowDropLeftLine} viewBox="0 0 1024 1024" color="white" size="48" />
 </button>
+<!-- Right Button -->
 <button
-	class="nav-button right-0 translate-x-[50%] justify-start rounded-s-[3rem] hover:translate-x-[45%]"
+	class="nav-button right-0 translate-x-[50%] justify-start rounded-s-[3rem] hover:translate-x-[45%] {windowWidth <=
+	640
+		? 'w-[4rem]'
+		: 'w-[6rem]'}"
 	onclick={() => (currentPage.value = Math.min(12, currentPage.value + 1))}
 >
 	<Icon src={RiArrowsArrowDropRightLine} viewBox="0 0 1024 1024" color="white" size="48" />
@@ -62,7 +72,7 @@
 		@apply h-[0.4rem]
 		       grow 
 		       rounded
-					 hover:h-[1rem]
+					 hover:h-[0.8rem]
 					 transition-all duration-300
 					 text-white 
 					 ;
@@ -71,7 +81,7 @@
 	/* prettier-ignore */
 	.nav-button {
 		@apply fixed top-[50vh] translate-y-[-50%]
-					 h-[6rem] w-[6rem]
+					 h-[6rem] 
 					 flex items-center
 		       pointer-events-auto cursor-pointer
 					 bg-gray-500 opacity-50
