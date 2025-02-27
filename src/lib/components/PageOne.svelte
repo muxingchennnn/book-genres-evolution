@@ -39,7 +39,7 @@ etc.<br />
 <button class="primary sm">Classics</button>
 <button class="primary sm">Young Adult/New Adult fiction</button> -->
 
-<div class="fixed top-[30vh] w-full translate-y-[-50%] sm:top-[50vh]">
+<div class="fixed top-[30vh] w-full translate-y-[-50%] md:top-[50vh]">
 	<h1 class="text-center text-[1.125rem] font-bold sm:text-[2rem] lg:text-[2.5rem]">
 		Societal Shifts & Literary Evolution Go Hand in Hand
 	</h1>

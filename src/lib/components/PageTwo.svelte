@@ -1,6 +1,6 @@
 <!--Make responsive to user's choice in last slide.-->
 
-<article class="mx-auto flex max-w-[400px] flex-col gap-[1rem] sm:max-w-[600px]">
+<article>
 	<p>
 		Storytelling seems to be an innate part of being human. Children sing, dance, doodle, and tell
 		stories, (make red) all without being taught- put a group of kids together and in no time at

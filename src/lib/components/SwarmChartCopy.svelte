@@ -15,8 +15,7 @@
 
 	const callOutData = scifiData.filter(
 		(d) =>
-			d.title === 'The Hunger Games (The Hunger Games #1)' ||
-			d.title === "Ender's Game (Ender's Saga #1)"
+			d.title === 'The Martian (The Martian #1)' || d.title === "Ender's Game (Ender's Saga #1)"
 	);
 	$inspect(callOutData);
 
@@ -89,7 +88,7 @@
 			.restart();
 
 		if (currentPage.value === 4) {
-			hoveredNode = callOutData.at(0);
+			hoveredNode = callOutData.at(1);
 		}
 
 		return () => {
